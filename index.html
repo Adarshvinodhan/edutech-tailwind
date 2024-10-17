@@ -276,15 +276,15 @@
   </div>
 
   <!-- Testimonials Cards -->
-  <div class="relative flex justify-center items-center">
+  <div class="relative flex justify-center items-center ">
 
       <!-- Left Arrow -->
-      <button class="absolute left-0 text-blue-500 text-4xl focus:outline-none">
+      <button id="left-arrow" class="absolute left-0 text-blue-500 text-4xl focus:outline-none z-10">
           <i class="fas fa-chevron-left"></i>
       </button>
 
       <!-- Testimonials Container -->
-      <div class="flex space-x-8 ">
+      <div id="testimonial-container" class="flex transition-transform ease-in-out duration-500 space-x-8">
           
           <!-- Single Testimonial 1 -->
           <div class="bg-white shadow-lg rounded-lg p-6 relative flex flex-col items-center" style="width: 320px;">
@@ -299,8 +299,8 @@
               </div>
           </div>
 
-          <!-- Single Testimonial 2 (highlighted) -->
-          <div class="bg-white shadow-lg rounded-lg p-6 relative flex flex-col items-center transform scale-105" style="width: 320px;">
+          <!-- Single Testimonial 2 -->
+          <div class="bg-white shadow-lg rounded-lg p-6 relative flex flex-col items-center" style="width: 320px;">
               <img src="./assets/f2.png" alt="student" class="w-20 h-20 rounded-full border-4 border-white absolute -top-10">
               <p class="mt-12 text-center text-gray-600">Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.</p>
               <div class="flex mt-4 space-x-1 justify-center">
@@ -324,11 +324,10 @@
                   <i class="fas fa-star text-gray-300"></i>
               </div>
           </div>
-
       </div>
 
       <!-- Right Arrow -->
-      <button class="absolute right-0 text-blue-500 text-4xl focus:outline-none">
+      <button id="right-arrow" class="absolute right-0 text-blue-500 text-4xl focus:outline-none z-10">
           <i class="fas fa-chevron-right"></i>
       </button>
   </div>
