@@ -62,7 +62,7 @@
         <a class="text-white p-2 sm:p-3 font-bold hover:text-blue-400" href="">Get free consultation</a>
       </div>
       <div class="flex flex-col sm:flex-row bg-white px-2 py-2 gap-4 sm:gap-6 max-w-fit rounded">
-          <input type="search" placeholder="What do you want to learn today?">
+          <input class="focus:outline-none p-2" type="search" placeholder="What do you want to learn today?">
         <div class="flex bg-blue-600 rounded py-2 gap-1 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 pl-1">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -73,10 +73,10 @@
     </div>
   
     <div id="right" class="w-full sm:w-[60%] relative flex justify-center items-center">
-        <!-- Ellipse Image (placed behind) -->
+        
         <img src="./assets/Ellipse 8324.png" alt="Ellipse" class="absolute w-[300px] sm:w-[600px] h-auto bottom-0 z-0">
       
-        <!-- Woman Image (placed in front) -->
+        
         <img src="./assets/brunette-woman-hugging-laptop_1-removebg-preview.png" alt="Woman" class="absolute w-[150px] sm:w-[300px] bottom-0 h-auto z-10">
       </div>
       
@@ -96,7 +96,7 @@
     </div>
 
     <!-- Cards container with scrollable content -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto overflow-y-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto overflow-y-auto p-8">
       
       <!-- Card 1 -->
       <div class="bg-white shadow-md rounded-lg p-6">
@@ -149,7 +149,7 @@
 
     <!-- Explore courses button -->
     <div class="text-center mt-8">
-      <button class="bg-blue-500 text-white px-6 py-3 rounded-md">Explore courses</button>
+      <button class="bg-blue-900 text-white px-6 py-3 rounded-md">Explore courses</button>
     </div>
   </section>
   <section id="page-three" class="text-white flex flex-col bg-gradient-to-r from-blue-600 to-blue-900 items-center text-center py-16">
@@ -187,48 +187,49 @@
         <p class="text-lg mb-12">100+ unique online course list designs</p>
     </div>
     
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 p-12 md:grid-cols-3 lg:grid-cols-6 gap-8">
         <!-- Category Card -->
-        <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t1.svg" alt="Digital Marketing Icon" class="mb-4">
-            <h3 class="text-xl font-semibold">Digital Marketing</h3>
-            <p class="mt-2 text-sm">25 Courses</p>
-        </div>
+      <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
+        <img src="./assets/t1.svg" alt="Digital Marketing Icon" class="mb-4 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
+         <h3 class="text-xl font-semibold">Digital Marketing</h3>
+         <p class="mt-2 text-sm">25 Courses</p>
+      </div>
+
         
         <!-- Repeat for other categories -->
         <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t2.svg" alt="Web Development Icon" class="mb-4">
+            <img src="./assets/t2.svg" alt="Web Development Icon" class="mb-4 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
             <h3 class="text-xl font-semibold">Web Development</h3>
             <p class="mt-2 text-sm">16 Courses</p>
         </div>
         
         <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t3.svg" alt="Art & Humanities Icon" class="mb-4">
+            <img src="./assets/t3.svg" alt="Art & Humanities Icon" class="mb-4  w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
             <h3 class="text-xl font-semibold">Art & Humanities</h3>
             <p class="mt-2 text-sm">76 Courses</p>
         </div>
         
         <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t4.svg" alt="Personal Development Icon" class="mb-4">
+            <img src="./assets/t4.svg" alt="Personal Development Icon" class="mb-4  w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
             <h3 class="text-xl font-semibold">Personal Development</h3>
             <p class="mt-2 text-sm">22 Courses</p>
         </div>
         
         <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t5.svg" alt="IT and Software Icon" class="mb-4">
+            <img src="./assets/t5.svg" alt="IT and Software Icon" class="mb-4 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
             <h3 class="text-xl font-semibold">IT and Software</h3>
             <p class="mt-2 text-sm">110 Courses</p>
         </div>
         
         <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg shadow-lg">
-            <img src="./assets/t6.svg" alt="Graphic Design Icon" class="mb-4">
+            <img src="./assets/t6.svg" alt="Graphic Design Icon" class="mb-4  w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6">
             <h3 class="text-xl font-semibold">Graphic Design</h3>
             <p class="mt-2 text-sm">85 Courses</p>
         </div>
     </div>
 </section>
 
-<section class="py-10">
+<section class="py-10 px-10">
 
   <!-- Subscribe Section -->
   <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-10 mx-auto max-w-4xl text-center relative">
